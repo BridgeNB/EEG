@@ -26,6 +26,7 @@ def read_csv(filename):
     print column['Group'][0:2]
     print column['AveWorkload'][0:2]
     print column['Action'][0:2]
+    print column['Seconds'][0:2]
 
 read_csv('Raw-Diff-Class-Condensed.csv')
 
